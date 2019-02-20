@@ -14,7 +14,7 @@
     - 熱中症警戒度
 
 
-- [型2JCIE-BU 環境センサ（USB型）](https://www.omron.co.jp/ecb/product-detail?partId=73063) 
+- [型2JCIE-BU 環境センサ（USB型）](https://www.omron.co.jp/ecb/product-detail?partId=73063)  
 ![2JCIE-BU](2JCIE-BU.jpg)  
     - 温度
     - 湿度
