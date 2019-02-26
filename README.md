@@ -36,7 +36,7 @@ This sample program that scans the advertising packet emitted by the environment
 Specify the environmental sensor type of data acquisition target with the option at startup.  
 Note: [Pre-setting](#link2) is necessary when using 2JCIE-BL01 Environment Sensor (Bag Type).
 
-    - 2JCIE-BL Environment Sensor  
+    - 2JCIE-BL Environment Sensor (Bag Type)  
     The following values are output.
         - Company ID
         - Temperature
