@@ -2,7 +2,7 @@
 This is a sample program to acquire sensing data from the Omron environmental sensors 2JCIE-BL and 2JCIE-BU via the BLE interface.  
 Each sensor can acquire the following values respectively.  
 
-- [2JCIE-BL Environment Sensor](https://www.components.omron.com/product-detail?partId=73064)  
+- [2JCIE-BL Environment Sensor (Bag Type)](https://www.components.omron.com/product-detail?partId=73064)  
 ![2JCIE-BL](2JCIE-BL.jpeg)  
     - Temperature
     - Relative humidity
@@ -34,7 +34,7 @@ Each sensor can acquire the following values respectively.
 - sample_2jciebl-bu-ble.py  
 This sample program that scans the advertising packet emitted by the environmental sensor with Bluetooth Low Energy and outputs the included sensing data to the log file.  
 Specify the environmental sensor type of data acquisition target with the option at startup.  
-Note: [Pre-setting](#link2) is necessary when using 2JCIE-BL01 Environment Sensor.
+Note: [Pre-setting](#link2) is necessary when using 2JCIE-BL01 Environment Sensor (Bag Type).
 
     - 2JCIE-BL Environment Sensor  
     The following values are output.
@@ -80,9 +80,9 @@ A log file called sample.log is created and data is output.
 
 ## Usage
 This is a procedure to operate the sample program.  
-Note: When using 2JCIE-BL Environment Sensor, [Pre-set](#link2) is required.
+Note: When using 2JCIE-BL Environment Sensor (Bag Type), [Pre-set](#link2) is required.
 
-- 2JCIE-BL Environment Sensor
+- 2JCIE-BL Environment Sensor (Bag Type)
 Open Terminal and execute the following command.  
     ```
     $ sudo python3 sample_2jciebl-bu-ble.py -m bag
@@ -106,8 +106,8 @@ Thank you to all our [contributors](https://github.com/omron-devhub/2jciebl-bu-b
 
 ---
 
-## <a name="link2">2JCIE-BL Environment Sensor Pre Settings</a>
-
+## <a name="link2">2JCIE-BL Environment Sensor (Bag Type) Pre Settings</a>
+![2JCIE-BL](2JCIE-BL.jpeg)  
 ### Advance preparation
 Download the BLE device utility application "BLE Scanner" to your smartphone.
 - [android](https://play.google.com/store/apps/details?id=com.macdom.ble.blescanner&hl=ja)
@@ -122,7 +122,7 @@ Change the beacon mode of the environment sensor by the following procedure.
 1. Tap Read Value to see if the set value is reflected
 1. Turn off the connection and confirm that the name of the device has changed to **EP- BL01**.
 
-### Chamge Measurement Interval
+### Change Measurement Interval
 Change the measurement interval of the environment sensor by the following procedure.
 1. Open 0C4C**3010**-7700-46F4-AA96D5E974E32A54 of CUSTOM SERVICE
 1. Open 0C4C**3011**-7700-46F4-AA96D5E974E32A54 of CUSTOM CHERACTERISTIC

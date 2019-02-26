@@ -2,7 +2,7 @@
 オムロン製環境センサ 2JCIE-BL 及び 2JCIE-BU から BLE インタフェース経由でセンシングデータを取得するサンプルプログラムです。  
 各センサはそれぞれ以下の値を取得することができます。  
 
-- [型2JCIE-BL 環境センサ](https://www.omron.co.jp/ecb/product-detail?partId=73062)  
+- [型2JCIE-BL 環境センサ（カバン型）](https://www.omron.co.jp/ecb/product-detail?partId=73062)  
 ![2JCIE-BL](2JCIE-BL.jpeg)  
     - 温度
     - 湿度
@@ -35,9 +35,9 @@
 - sample_2jciebl-bu-ble.py  
 Bluetooth Low Energy で 環境センサの発する advertising packet をスキャンし、含まれるセンシングデータをログファイルに出力するサンプルプログラムです。  
 起動時のオプションでデータ取得対象の環境センサ種別を指定します。  
-※ 型2JCIE-BL 環境センサを利用する場合は [事前設定](#link2) が必要です。  
+※ 型2JCIE-BL 環境センサ（カバン型）を利用する場合は [事前設定](#link2) が必要です。  
 
-    - 型2JCIE-BL 環境センサ  
+    - 型2JCIE-BL 環境センサ（カバン型）  
     以下の値を出力します。
         - メーカー番号
         - 温度
@@ -81,9 +81,9 @@ sample_2jciebl-bu-ble.py を実行するとコンソール上でセンシング�
 
 ## 使い方
 サンプルプログラムを動作させる手順です。  
-※型2JCIE-BL 環境センサ を利用する場合は [事前設定](#link2) が必要になります。
+※型2JCIE-BL 環境センサ（カバン型） を利用する場合は [事前設定](#link2) が必要になります。
 
--  型2JCIE-BL 環境センサ  
+-  型2JCIE-BL 環境センサ（カバン型）  
 ターミナルを開き、次のコマンドを実行します。  
     ```
     $ sudo python3 sample_2jciebl-bu-ble.py -m bag
@@ -108,8 +108,8 @@ sample_2jciebl-bu-ble.py を実行するとコンソール上でセンシング�
 
 ---
 
-## <a name="link2">型2JCIE-BL 環境センサ 事前設定</a>
-
+## <a name="link2">型2JCIE-BL 環境センサ（カバン型）事前設定</a>
+![2JCIE-BL](2JCIE-BL.jpeg)  
 ### 事前準備
 BLEデバイスのユーテリティアプリ "BLE Scanner" をスマートフォンにダウンロードします。
 - [android版](https://play.google.com/store/apps/details?id=com.macdom.ble.blescanner&hl=ja)
