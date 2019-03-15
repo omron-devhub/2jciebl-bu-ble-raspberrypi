@@ -75,6 +75,7 @@ A log file called sample.log is created and data is output.
 2. Open Terminal and execute the following command.    
     ```
     $ mkdir omron_sensor
+    $ cd omron_sensor
     $ git clone https://github.com/omron-devhub/2jciebl-bu-ble-raspberrypi.git
     ```
 

@@ -76,6 +76,7 @@ sample_2jciebl-bu-ble.py を実行するとコンソール上でセンシング�
 2. ターミナルを開き、次のコマンドを実行します。  
     ```
     $ mkdir omron_sensor
+    $ cd omron_sensor
     $ git clone https://github.com/omron-devhub/2jciebl-bu-ble-raspberrypi.git
     ```
 
